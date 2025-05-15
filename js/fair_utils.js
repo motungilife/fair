@@ -1,1 +1,1 @@
-alert("test");
+console.log("-".repeat(50));
