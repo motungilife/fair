@@ -22,8 +22,7 @@ const libs = ["https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"];
 const scrs = ["/js/tabs.js"];
 if (location.hostname !== "127.0.0.1") {
   for (let i = 0; i < scrs.length; i++) {
-    scrs[i] =
-      "https://cdn.jsdelivr.net/gh/motungilife/motungilife@main" + scrs[i];
+    scrs[i] = "https://cdn.jsdelivr.net/gh/motungilife/fair@main" + scrs[i];
   }
 }
 
