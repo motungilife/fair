@@ -1,0 +1,30 @@
+[
+  {
+    "region": "서울",
+    "regionUrl": "https://pa01.motungilife.com/2025/05/region.html"
+  },
+  {
+    "region": "경기",
+    "regionUrl": "https://pa02.motungilife.com/2025/05/region.html"
+  },
+  {
+    "region": "대전",
+    "regionUrl": "https://pa03.motungilife.com/2025/05/region.html"
+  },
+  {
+    "region": "청주",
+    "regionUrl": "https://pa04.motungilife.com/2025/05/region.html"
+  },
+  {
+    "region": "대구",
+    "regionUrl": "https://pa05.motungilife.com/2025/05/region.html"
+  },
+  {
+    "region": "광주",
+    "regionUrl": "https://pa06.motungilife.com/2025/05/region.html"
+  },
+  {
+    "region": "부산",
+    "regionUrl": "https://pa07.motungilife.com/2025/05/region.html"
+  }
+]

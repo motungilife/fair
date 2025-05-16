@@ -1,0 +1,31 @@
+{
+  "name": "fair",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js",
+    "parse": "node parse-excel.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motungilife/fair.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/motungilife/fair/issues"
+  },
+  "homepage": "https://github.com/motungilife/fair#readme",
+  "devDependencies": {
+    "cheerio": "^1.0.0",
+    "clean-css-cli": "^5.6.3",
+    "fs-extra": "^11.3.0",
+    "html-minifier-terser": "^7.2.0",
+    "terser": "^5.39.2"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}

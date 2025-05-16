@@ -1,0 +1,123 @@
+<html class="v2" dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b"
+  xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr">
+
+<head>
+  <link href="https://www.blogger.com/static/v1/widgets/3566091532-css_bundle_v2.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  <meta content="blogger" name="generator">
+  <link href="https://ma01.motungilife.com/favicon.ico" rel="icon" type="image/x-icon">
+  <link href="https://ma01.motungilife.com/" rel="canonical">
+  <link rel="alternate" type="application/atom+xml" title="메뉴01 - Atom"
+    href="https://ma01.motungilife.com/feeds/posts/default">
+  <link rel="alternate" type="application/rss+xml" title="메뉴01 - RSS"
+    href="https://ma01.motungilife.com/feeds/posts/default?alt=rss">
+  <link rel="service.post" type="application/atom+xml" title="메뉴01 - Atom"
+    href="https://draft.blogger.com/feeds/4172955221047398335/posts/default">
+  <link rel="me" href="https://draft.blogger.com/profile/07965209191749495395">
+  <!--Can't find substitution for tag [blog.ieCssRetrofitLinks]-->
+  <meta content="https://ma01.motungilife.com/" property="og:url">
+  <meta content="메뉴01" property="og:title">
+  <meta content="" property="og:description">
+  <title>메뉴01</title>
+  <link href="/src/ma/style.css" rel="stylesheet" type="text/css">
+  <link
+    href="https://draft.blogger.com/dyn-css/authorization.css?targetBlogID=4172955221047398335&amp;zx=39a37b60-c14c-4f3c-98cd-6e8288279b02"
+    media="all" onload="if(media!='all')media='all'" rel="stylesheet">
+  <noscript>
+    <link
+      href='https://draft.blogger.com/dyn-css/authorization.css?targetBlogID=4172955221047398335&amp;zx=39a37b60-c14c-4f3c-98cd-6e8288279b02'
+      rel='stylesheet' />
+  </noscript>
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js" async=""></script>
+  <script src="https://unpkg.com/htmx.org@2.0.4"
+    integrity="sha384-HGfztofotfshcF7+8n44JQL2oJmowVChPTg48S+jvZoztPfvwD79OC/LTtG6dMp+"
+    crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.8/dist/cdn.min.js"></script>
+  <script src="/src/utils.js"></script>
+</head>
+
+<body>
+  <div class="main-wrapper">
+    <!-- 헤더 섹션 -->
+    <div class="section" id="header">
+      <div class="widget Header" data-version="1" id="Header1">
+        <div class="container">
+          <header class="header" hx-get="/src/ma/header.htm" hx-trigger="load"></header>
+        </div>
+      </div>
+    </div>
+    <!-- 메인 섹션 -->
+    <div class="main section" id="main" style="height: auto !important;">
+      <div class="widget Blog" data-version="1" id="Blog1" style="height: auto !important;">
+        <div class="blog-posts hfeed container" style="height: auto !important;">
+          <div class="container" style="height: auto !important;">
+            <div class="tab-wrapper">
+              <div class="container">
+                <nav class="tab-container" hx-get="/src/ma/tabs.htm" hx-trigger="load"></nav>
+              </div>
+            </div>
+            <script>
+              document.addEventListener('DOMContentLoaded', function () {
+                const tabs = document.querySelectorAll('.tab-link');
+                const hash = window.location.hash;
+                let activeTabFound = false;
+
+                tabs.forEach(tab => {
+                  if (hash) {
+                    if (tab.getAttribute('href') === hash) {
+                      tabs.forEach(t => t.classList.remove('active'));
+                      tab.classList.add('active');
+                      activeTabFound = true;
+                    }
+                  }
+                });
+
+                if (!activeTabFound) {
+                  const defaultActiveTab = document.querySelector('.tab-link.active');
+                  if (defaultActiveTab) {
+                    defaultActiveTab.classList.add('active');
+                  }
+                }
+              });
+            </script>
+            <script>
+              function scrollToElementWithOffset(elementId) {
+                const targetElement = document.getElementById(elementId);
+                if (targetElement) {
+                  const offset = window.innerHeight * 0.15;
+                  const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
+                  const scrollPosition = targetPosition - offset;
+
+                  window.scrollTo({
+                    top: scrollPosition,
+                    behavior: 'smooth' // 부드러운 스크롤 적용
+                  });
+                }
+              }
+
+              document.addEventListener('DOMContentLoaded', function () {
+                const hash = window.location.hash;
+
+                if (hash) {
+                  const targetId = hash.substring(1);
+                  setTimeout(() => {
+                    scrollToElementWithOffset(targetId);
+                  }, 300); // 약간의 지연 시간 추가하여 올바르게 스크롤 적용
+                }
+              });
+            </script>
+            <div hx-get="/src/ma/content.htm" hx-trigger="load" hx-swap="outerHTML"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 푸터 -->
+  <footer class="footer" hx-get="/src/ma/footer.htm" hx-trigger="load"></footer>
+
+  <script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/1372322573-widgets.js"></script>
+</body>
+
+</html>
