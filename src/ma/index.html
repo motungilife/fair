@@ -31,10 +31,8 @@
       rel='stylesheet' />
   </noscript>
   <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js" async=""></script>
-  <script src="https://unpkg.com/htmx.org@2.0.4"
-    integrity="sha384-HGfztofotfshcF7+8n44JQL2oJmowVChPTg48S+jvZoztPfvwD79OC/LTtG6dMp+"
-    crossorigin="anonymous"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.8/dist/cdn.min.js"></script>
+  <script src="/src/ma/alpine.js"></script>
   <script src="/src/utils.js"></script>
 </head>
 
@@ -44,7 +42,7 @@
     <div class="section" id="header">
       <div class="widget Header" data-version="1" id="Header1">
         <div class="container">
-          <header class="header" hx-get="/src/ma/header.html" hx-trigger="load"></header>
+          <header class="header" id="header"></header>
         </div>
       </div>
     </div>
@@ -55,7 +53,7 @@
           <div class="container" style="height: auto !important;">
             <div class="tab-wrapper">
               <div class="container">
-                <nav class="tab-container" hx-get="/src/ma/tabs.html" hx-trigger="load"></nav>
+                <nav class="tab-container" id="tabs"></nav>
               </div>
             </div>
             <script>
@@ -108,14 +106,14 @@
                 }
               });
             </script>
-            <div hx-get="/src/ma/content.html" hx-trigger="load" hx-swap="outerHTML"></div>
+            <div id="content"></div>
           </div>
         </div>
       </div>
     </div>
   </div>
   <!-- 푸터 -->
-  <footer class="footer" hx-get="/src/ma/footer.html" hx-trigger="load"></footer>
+  <footer class="footer" id="footer"></footer>
 
   <script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/1372322573-widgets.js"></script>
 </body>
