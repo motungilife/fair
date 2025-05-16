@@ -17,7 +17,7 @@ const URL_TRANSFORMATIONS = [
   // 예: CDN 경로로 변경
   {
     from: /\/src\//g,
-    to: "https://cdn.jsdelivr.net/gh/motungilife/fair@main/dist/",
+    to: "https://motungilife.github.io/fair/dist/",
   },
 ];
 
