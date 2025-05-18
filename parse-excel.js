@@ -13,7 +13,7 @@ function parseExcelToJS() {
     const excelFilePath = path.join(__dirname, "fair_urls.xlsx");
     const workbook = xlsx.readFile(excelFilePath);
     const sheetNames = workbook.SheetNames;
-    const outputDir = path.join(__dirname, "src", "ma");
+    const outputDir = path.join(__dirname, "src", "json");
 
     sheetNames.forEach((sheetName) => {
       const worksheet = workbook.Sheets[sheetName];

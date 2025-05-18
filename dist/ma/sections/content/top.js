@@ -1,0 +1,1 @@
+replaceWith("content-top","https://cdn.jsdelivr.net/gh/motungilife/fair@main/dist/ma/sections/content/top.html");

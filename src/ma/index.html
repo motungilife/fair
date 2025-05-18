@@ -14,35 +14,661 @@
   <link rel="alternate" type="application/rss+xml" title="메뉴01 - RSS"
     href="https://ma01.motungilife.com/feeds/posts/default?alt=rss">
   <link rel="service.post" type="application/atom+xml" title="메뉴01 - Atom"
-    href="https://draft.blogger.com/feeds/4172955221047398335/posts/default">
-  <link rel="me" href="https://draft.blogger.com/profile/07965209191749495395">
+    href="https://www.blogger.com/feeds/4172955221047398335/posts/default">
+  <link rel="me" href="https://www.blogger.com/profile/07965209191749495395">
   <!--Can't find substitution for tag [blog.ieCssRetrofitLinks]-->
   <meta content="https://ma01.motungilife.com/" property="og:url">
   <meta content="메뉴01" property="og:title">
   <meta content="" property="og:description">
   <title>메뉴01</title>
-  <link href="/src/ma/style.css" rel="stylesheet" type="text/css">
+  <style id="page-skin-1" type="text/css">
+    <!--
+    /*
+-----------------------------------------------
+Blogger Template Style
+Name: 아로스 홈페이지 스킨 목록
+----------------------------------------------- */
+    /* 기본 스타일 */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+    }
+
+    html {
+      height: 100%;
+    }
+
+    body {
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      background-color: white;
+    }
+
+    .main-wrapper {
+      flex: 1 0 auto;
+    }
+
+    .container {
+      max-width: 768px;
+      margin: 0 auto;
+      padding: 8px 8px;
+    }
+
+    .blog-posts.hfeed.container {
+      margin-top: -30px;
+      padding: 0;
+    }
+
+    .blog-posts {
+      max-width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* 헤더 스타일 수정 */
+    /* 상단 고정을 위한 스타일 */
+    body {
+      padding-top: 120px;
+      /* 헤더와 탭의 전체 높이만큼 여백 추가 */
+    }
+
+    /* 헤더 고정 스타일 */
+    #header {
+      position: fixed !important;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 40px !important;
+      background: white;
+      z-index: 1000;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    .header {
+      position: relative;
+      width: 100%;
+      background: white;
+      margin: 4px 0;
+    }
+
+    .header .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 768px;
+      margin: 0 auto;
+      height: 24px;
+      padding: 0;
+      gap: 4px;
+    }
+
+    /* 로고 스타일 유지 */
+    .logo {
+      display: flex;
+      align-items: center;
+      height: 24px;
+    }
+
+    .logo img {
+      height: 30px;
+      width: auto;
+      vertical-align: middle;
+    }
+
+    .logo-text {
+      font-size: 20px;
+      font-weight: 600;
+      margin: 0 !important;
+      padding: 0 !important;
+      color: #000;
+      display: flex;
+      align-items: center;
+      height: 24px;
+      line-height: 24px;
+    }
+
+    /* 탭 고정 스타일 */
+    .tab-wrapper {
+      position: fixed;
+      top: 42px;
+      left: 0;
+      width: 100%;
+      background: white;
+      z-index: 999;
+      padding: 0;
+    }
+
+    .tab-container {
+      background: white;
+      border-radius: 50px;
+      padding: 2px;
+      margin: 0 auto;
+      /* 상하 마진 제거 */
+      max-width: 768px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .tabs {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      /* 마진 제거 */
+    }
+
+    .tab-item {
+      flex: 1;
+      text-align: center;
+    }
+
+    .tab-link {
+      display: block;
+      padding: 12px 6px;
+      /* 좌우 패딩을 더 줄임 */
+      text-decoration: none;
+      color: #666;
+      border-radius: 25px;
+      transition: all 0.3s ease;
+      min-height: 42px;
+      /* 최소 높이 설정으로 탭 높이 통일 */
+      line-height: 1.2;
+      /* 줄간격 조정 */
+      word-break: keep-all;
+      /* 단어 단위로 줄바꿈 */
+      font-size: 14px;
+      /* 글자 크기 조정 */
+    }
+
+    .tab-link.active {
+      background-color: #6528f7;
+      color: white;
+    }
+
+    @media screen and (max-width: 370px) {
+      .tab-link {
+        font-size: 13px;
+        /* 모바일에서 더 작은 글자 크기 */
+        padding: 12px 4px;
+        /* 패딩 더 줄임 */
+      }
+    }
+
+    /* 추가 오버라이드 */
+    #header h1,
+    #header h2 {
+      margin: 0 !important;
+      margin-bottom: 0 !important;
+      padding: 0 !important;
+      line-height: 24px !important;
+    }
+
+    /* 배경 고정 */
+    .header::after,
+    .tab-container::after {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 45px;
+      /* 헤더와 탭의 전체 높이 */
+      background: white;
+      z-index: -1;
+    }
+
+    .content-card {
+      background: #EEF1FF;
+      border-radius: 20px;
+      padding: 30px;
+      margin-bottom: 20px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .card-text {
+      color: #666;
+      line-height: 1.6;
+    }
+
+    .card-icon {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      font-size: 4rem;
+      opacity: 0.8;
+      display: block;
+    }
+
+    .section-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin: 30px 0 15px 0;
+      color: #333;
+    }
+
+    .support-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+
+    .support-card {
+      display: block;
+      text-decoration: none;
+      background: white;
+      border-radius: 20px;
+      padding: 25px;
+      position: relative;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      min-height: 120px;
+      border: none;
+    }
+
+    .support-card:hover {
+      transform: translateY(-5px);
+    }
+
+    /* 색상 추가 */
+    .card-blue {
+      background-color: #2196F3;
+    }
+
+    .card-teal {
+      background-color: #0B6138;
+    }
+
+    .card-purple {
+      background-color: #7E57C2;
+    }
+
+    .card-green {
+      background-color: #31B404;
+    }
+
+    .card-cyan {
+      background-color: #00BCD4;
+    }
+
+    .card-orange {
+      background-color: #FF7043;
+    }
+
+    .card-darkblue {
+      background-color: #1a237e;
+    }
+
+    .card-purple-light {
+      background-color: #7E57C2;
+    }
+
+    .card-teal-dark {
+      background-color: #00695c;
+    }
+
+    .card-blue2 {
+      background-color: #2d6cfc;
+    }
+
+    .card-lightpurple {
+      background-color: #d99dfc;
+    }
+
+    .card-blue3 {
+      background-color: #8080e0;
+    }
+
+    .card-blue4 {
+      background-color: #5353db;
+    }
+
+    .card-darkgold {
+      background-color: #C0A000;
+    }
+
+    .card-amber {
+      background-color: #FFBF00;
+    }
+
+    .card-mustard {
+      background-color: #D4AF37;
+    }
+
+    .card-bronze {
+      background-color: #CD7F32;
+    }
+
+    .card-darkyellow {
+      background-color: #B8860B;
+    }
+
+    .card-forestgreen {
+      background-color: #228B22;
+    }
+
+    .card-seagreen {
+      background-color: #2E8B57;
+    }
+
+    .card-deeppurple {
+      background-color: #6A0DAD;
+    }
+
+    .card-violet {
+      background-color: #8A2BE2;
+    }
+
+    .card-royalblue {
+      background-color: #4169E1;
+    }
+
+    .card-deepskyblue {
+      background-color: #00BFFF;
+    }
+
+    .support-title {
+      color: white;
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .support-subtitle {
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 0.9rem;
+    }
+
+    .support-icon {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      font-size: 2rem;
+    }
+
+    /* 광고 컨테이너 */
+    .ad-container {
+      width: 100%;
+      margin: 20px 0;
+      min-height: 100px;
+      background: #f5f5f5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+    }
+
+    .ad-placeholder {
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    /* 푸터 스타일 */
+    .footer {
+      flex-shrink: 0;
+      background: #E3F2FD;
+      color: #333;
+      padding: 20px 0;
+      margin-top: 30px;
+      width: 100%;
+    }
+
+    .footer-content {
+      max-width: 768px;
+      margin: 0 auto;
+      padding: 0 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    .footer-left {
+      flex: 1;
+    }
+
+    .footer-right {
+      text-align: right;
+    }
+
+    .footer-right a {
+      color: #1976D2;
+      text-decoration: none;
+    }
+
+    .footer-right a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-copyright {
+      color: #666;
+      font-size: 0.9rem;
+      margin-top: 10px;
+    }
+
+    .footer-brand {
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #1976D2;
+    }
+
+    .footer-info {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer-info li {
+      margin-bottom: 2px;
+      color: #666;
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* 모바일 대응을 위한 미디어 쿼리 추가 */
+    @media screen and (max-width: 480px) {
+      .footer-content {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        /* 중앙 정렬 추가 */
+        text-align: center;
+        /* 텍스트 중앙 정렬 */
+      }
+
+      .footer-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* left 내용 중앙 정렬 */
+      }
+
+      .footer-right {
+        text-align: center;
+        /* right 내용 중앙 정렬 */
+        width: 100%;
+      }
+
+      .footer-info li {
+        justify-content: center;
+        /* li 요소들 중앙 정렬 */
+      }
+
+      .footer {
+        padding: 20px 15px;
+      }
+    }
+
+    /* 블로거 특화 스타일 */
+    .post {
+      display: none;
+    }
+
+    .post-body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .date-header {
+      display: none;
+    }
+
+    .post-title {
+      display: none;
+    }
+
+    /* 반응형 스타일 */
+    @media (max-width: 480px) {
+      .container {
+        padding: 10px;
+      }
+
+      .tab-link {
+        padding: 10px 8px;
+        font-size: 0.9rem;
+      }
+
+      .support-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+      }
+
+      .support-card {
+        padding: 15px;
+        height: 120px;
+        width: auto;
+      }
+
+      .support-title {
+        font-size: 16px;
+      }
+
+      .support-subtitle {
+        font-size: 16px;
+      }
+
+      .support-icon {
+        font-size: 1.5rem;
+        bottom: 15px;
+        right: 15px;
+      }
+
+      .content-card .card-icon {
+        display: none;
+      }
+
+      .footer {
+        padding: 8px 0;
+        margin-top: 15px;
+      }
+
+      .footer-content {
+        padding: 0 10px;
+      }
+    }
+
+    @media (min-width: 768px) {
+
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
+
+      .main-wrapper {
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+      }
+
+      .footer {
+        flex-shrink: 0;
+        margin-top: auto;
+        background: #E3F2FD;
+        padding: 20px 0;
+      }
+    }
+
+    /* Noto Sans KR 폰트 */
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+    -->
+  </style>
   <link
-    href="https://draft.blogger.com/dyn-css/authorization.css?targetBlogID=4172955221047398335&amp;zx=39a37b60-c14c-4f3c-98cd-6e8288279b02"
-    media="all" onload="if(media!='all')media='all'" rel="stylesheet">
-  <noscript>
+    href="https://www.blogger.com/dyn-css/authorization.css?targetBlogID=4172955221047398335&amp;zx=4ee039cf-bdc5-432f-84fa-1ca74120c3b0"
+    media="all" onload="if(media!='all')media='all'" rel="stylesheet"><noscript>
     <link
-      href='https://draft.blogger.com/dyn-css/authorization.css?targetBlogID=4172955221047398335&amp;zx=39a37b60-c14c-4f3c-98cd-6e8288279b02'
+      href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=4172955221047398335&amp;zx=4ee039cf-bdc5-432f-84fa-1ca74120c3b0'
       rel='stylesheet' />
   </noscript>
+  <meta name="google-adsense-platform-account" content="ca-host-pub-1556223355139109">
+  <meta name="google-adsense-platform-domain" content="blogspot.com">
+
+  <script
+    src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202505140101/reactive_library_fy2021.js?bust=31092490"></script>
+  <script
+    src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202505140101/show_ads_impl_fy2021.js?bust=31092490"></script>
+  <script async=""
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9235956900770105&amp;host=ca-host-pub-1556223355139109"
+    crossorigin="anonymous" data-checked-head="true"></script>
+
+  <!-- data-ad-client=ca-pub-9235956900770105 -->
+
+  <meta http-equiv="origin-trial"
+    content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+  <meta http-equiv="origin-trial"
+    content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+  <meta http-equiv="origin-trial"
+    content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+  <meta http-equiv="origin-trial"
+    content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+  <meta http-equiv="origin-trial"
+    content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+  <meta http-equiv="origin-trial"
+    content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+  <meta http-equiv="origin-trial"
+    content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+  <meta http-equiv="origin-trial"
+    content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+
+  <link rel="stylesheet" href="/src/ma/css/style.css">
   <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js" async=""></script>
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.8/dist/cdn.min.js"></script>
-  <script src="/src/ma/alpine.js"></script>
-  <script src="/src/utils.js"></script>
+  <script src="/src/js/utils.js"></script>
+  <script src="/src/js/set-globals.js"></script>
+  <script src="/src/ma/js/alpine.js"></script>
 </head>
 
-<body>
+<body aria-hidden="false">
   <div class="main-wrapper">
     <!-- 헤더 섹션 -->
     <div class="section" id="header">
       <div class="widget Header" data-version="1" id="Header1">
         <div class="container">
-          <header class="header" id="header"></header>
+          <header class="header">
+            <div class="container">
+              <div class="logo">
+                <img alt="로고 이미지"
+                  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwxd_YGfZiM_d9LPozylA_vt2w36-eanzKSgvMQm2zkh-s41pKzT2FDyyqB9cz713Tm3nRFVbtRR8GGXlEQh7UDr4BDteEwfQ_JDV0Yl_xYA5uBGWrqyhDLH_PNEa9cJmNLOhhFc7XKAJChRiR9_6KZbraUo8FpA2IGMxbgMNGAtnoi-WlBnWYpnm0FKw/w945-h600-p-k-no-nu/img.png">
+              </div>
+              <h1 class="logo-text">박람회</h1>
+            </div>
+          </header>
         </div>
       </div>
     </div>
@@ -53,7 +679,22 @@
           <div class="container" style="height: auto !important;">
             <div class="tab-wrapper">
               <div class="container">
-                <nav class="tab-container" id="tabs"></nav>
+                <nav class="tab-container">
+                  <ul class="tabs">
+                    <li class="tab-item">
+                      <a class="tab-link active" data-tab="aros1" href="https://ma01.motungilife.com/#aros1">마감 임박</a>
+                    </li>
+                    <li class="tab-item">
+                      <a class="tab-link" data-tab="aros2" href="https://ma02.motungilife.com/#aros2">일정</a>
+                    </li>
+                    <li class="tab-item">
+                      <a class="tab-link" data-tab="aros3" href="https://ma03.motungilife.com/#aros3">지역</a>
+                    </li>
+                    <li class="tab-item">
+                      <a class="tab-link" data-tab="aros4" href="https://ma04.motungilife.com/#aros4">전시장</a>
+                    </li>
+                  </ul>
+                </nav>
               </div>
             </div>
             <script>
@@ -79,8 +720,7 @@
                   }
                 }
               });
-            </script>
-            <script>
+
               function scrollToElementWithOffset(elementId) {
                 const targetElement = document.getElementById(elementId);
                 if (targetElement) {
@@ -106,16 +746,169 @@
                 }
               });
             </script>
-            <div id="content"></div>
+            <div class="content-card" id="content-top">
+              <h2 class="card-title"> 사전 등록 </h2>
+              <p class="card-text">
+                처음 박람회 가시는 83%가 놓치고 있던 사실!<br>
+                사전 등록, 일정만 알면 놓치지 않습니다.!<br>
+                지금 바로 확인하고 혜택 놓치지 마세요!</p>
+              <span class="card-icon">🎁️</span>
+            </div>
+            <div id="content01">
+              <h2 class="section-title" id="aros1">사전 등록 임박, 지금 바로 신청!</h2>
+              <div class="support-grid">
+                <a class="support-card card-cyan"
+                  href="https://fair.motungilife.com/2025/05/daejeon-architecture-expo-2025-may-free-registration.html">
+                  <div class="support-title">대전건축박람회</div>
+                  <div class="support-subtitle">사전 등록 마감일 : 2025.05.21</div>
+                  <div class="support-icon">⌛</div>
+                </a><a class="support-card card-blue"
+                  href="https://fair.motungilife.com/2025/05/busan-architecture-expo-2025-june-free-registration.html">
+                  <div class="support-title">부산건축박람회</div>
+                  <div class="support-subtitle">사전 등록 마감일 : 2025.06.04</div>
+                  <div class="support-icon">⌛</div>
+                </a><a class="support-card card-blue2"
+                  href="https://fair.motungilife.com/2025/05/chungcheong-architecture-expo-june-2025-free-registration.html">
+                  <div class="support-title">충청경향하우징페어</div>
+                  <div class="support-subtitle">사전 등록 마감일 : 2025.06.11</div>
+                  <div class="support-icon">🕝</div>
+                </a>
+              </div>
+            </div>
+            <div>
+              광고 Advertisement
+            </div>
+            <div id="content02">
+              <h2 class="section-title" id="aros2">다른 행사 일정이 궁금하시다면!</h2>
+              <div class="support-grid">
+                <a class="support-card card-teal-dark" href="https://pa05.motungilife.com/2025/05/month.html">
+                  <div class="support-title"><span>5</span>월</div>
+                  <div class="support-subtitle">대전건축박람회</div>
+                  <div class="support-icon">👨‍👩‍👧‍👦</div>
+                </a><a class="support-card card-green" href="https://pa06.motungilife.com/2025/05/month.html">
+                  <div class="support-title"><span>6</span>월</div>
+                  <div class="support-subtitle">부산건축박람회, 충청경향하우징페어</div>
+                  <div class="support-icon">☀️</div>
+                </a><a class="support-card card-seagreen" href="https://pa07.motungilife.com/2025/05/month.html">
+                  <div class="support-title"><span>7</span>월</div>
+                  <div class="support-subtitle">코리아빌드위크</div>
+                  <div class="support-icon">🏝️</div>
+                </a><a class="support-card card-forestgreen" href="https://pa08.motungilife.com/2025/05/month.html">
+                  <div class="support-title"><span>8</span>월</div>
+                  <div class="support-subtitle">제9회 MBC건축박람회</div>
+                  <div class="support-icon">🌻</div>
+                </a><a class="support-card card-teal-dark" href="https://pa09.motungilife.com/2025/05/month.html">
+                  <div class="support-title"><span>9</span>월</div>
+                  <div class="support-subtitle">부산코리아빌드, 대구경향하우징페어</div>
+                  <div class="support-icon">🍁</div>
+                </a><a class="support-card card-green" href="https://pa11.motungilife.com/2025/05/month.html">
+                  <div class="support-title"><span>11</span>월</div>
+                  <div class="support-subtitle">서울경향하우징페어, 광주경향하우징페어</div>
+                  <div class="support-icon">☕️</div>
+                </a><a class="support-card card-seagreen" href="https://pa12.motungilife.com/2025/05/month.html">
+                  <div class="support-title"><span>12</span>월</div>
+                  <div class="support-subtitle">동아건축∙인테리어</div>
+                  <div class="support-icon">🎄</div>
+                </a>
+              </div>
+            </div>
+            <div id="content03">
+              <h2 class="section-title" id="aros3">다른 지역 행사도 확인해보세요!</h2>
+              <div class="support-grid">
+                <a class="support-card card-lightpurple" href="https://pa01.motungilife.com/2025/05/region.html">
+                  <div class="support-title">서울</div>
+                  <div class="support-subtitle">코리아빌드위크, 서울경향하우징페어, 동아건축∙인테리어</div>
+                  <div class="support-icon">🚌</div>
+                </a><a class="support-card card-purple" href="https://pa02.motungilife.com/2025/05/region.html">
+                  <div class="support-title">경기</div>
+                  <div class="support-subtitle">제9회 MBC건축박람회</div>
+                  <div class="support-icon">🏞️</div>
+                </a><a class="support-card card-purple-light" href="https://pa03.motungilife.com/2025/05/region.html">
+                  <div class="support-title">대전</div>
+                  <div class="support-subtitle">대전건축박람회</div>
+                  <div class="support-icon">🏢</div>
+                </a><a class="support-card card-deeppurple" href="https://pa04.motungilife.com/2025/05/region.html">
+                  <div class="support-title">청주</div>
+                  <div class="support-subtitle">충청경향하우징페어</div>
+                  <div class="support-icon">🍃</div>
+                </a><a class="support-card card-violet" href="https://pa05.motungilife.com/2025/05/region.html">
+                  <div class="support-title">대구</div>
+                  <div class="support-subtitle">대구경향하우징페어</div>
+                  <div class="support-icon">🔥</div>
+                </a><a class="support-card card-lightpurple" href="https://pa06.motungilife.com/2025/05/region.html">
+                  <div class="support-title">광주</div>
+                  <div class="support-subtitle">광주경향하우징페어</div>
+                  <div class="support-icon">🎨</div>
+                </a><a class="support-card card-purple" href="https://pa07.motungilife.com/2025/05/region.html">
+                  <div class="support-title">부산</div>
+                  <div class="support-subtitle">부산건축박람회, 부산코리아빌드</div>
+                  <div class="support-icon">🌊</div>
+                </a>
+              </div>
+            </div>
+            <div id="content04">
+              <h2 class="section-title" id="aros4">가까운 전시장 찾아보세요!</h2>
+              <div class="support-grid">
+                <a class="support-card card-amber" href="https://pa01.motungilife.com/2025/05/venue.html">
+                  <div class="support-title">BEXCO</div>
+                  <div class="support-subtitle">부산건축박람회, 부산코리아빌드</div>
+                  <div class="support-icon">📸</div>
+                </a><a class="support-card card-mustard" href="https://pa02.motungilife.com/2025/05/venue.html">
+                  <div class="support-title">COEX</div>
+                  <div class="support-subtitle">코리아빌드위크, 동아건축∙인테리어</div>
+                  <div class="support-icon">🎫</div>
+                </a><a class="support-card card-darkgold" href="https://pa03.motungilife.com/2025/05/venue.html">
+                  <div class="support-title">EXCO</div>
+                  <div class="support-subtitle">대구경향하우징페어</div>
+                  <div class="support-icon">📣</div>
+                </a><a class="support-card card-bronze" href="https://pa04.motungilife.com/2025/05/venue.html">
+                  <div class="support-title">KDJ센터</div>
+                  <div class="support-subtitle">광주경향하우징페어</div>
+                  <div class="support-icon">📍</div>
+                </a><a class="support-card card-darkyellow" href="https://pa05.motungilife.com/2025/05/venue.html">
+                  <div class="support-title">OSCO</div>
+                  <div class="support-subtitle">충청경향하우징페어</div>
+                  <div class="support-icon">📣</div>
+                </a><a class="support-card card-amber" href="https://pa06.motungilife.com/2025/05/venue.html">
+                  <div class="support-title">SETEC</div>
+                  <div class="support-subtitle">서울경향하우징페어</div>
+                  <div class="support-icon">📍</div>
+                </a><a class="support-card card-mustard" href="https://pa07.motungilife.com/2025/05/venue.html">
+                  <div class="support-title">대전컨벤션센터</div>
+                  <div class="support-subtitle">대전건축박람회</div>
+                  <div class="support-icon">📣</div>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
   <!-- 푸터 -->
-  <footer class="footer" id="footer"></footer>
-
-  <script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/1372322573-widgets.js"></script>
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-left">
+        <div class="footer-brand">motungi</div>
+        <ul class="footer-info">
+          <li>
+            <i>📍</i>
+            사업자 주소: <span id="com-addr">N/A</span>
+          </li>
+          <li>
+            <i>🏢</i>
+            사업자 번호: <span id="com-no">N/A</span>
+          </li>
+        </ul>
+      </div>
+      <!-- 아래 내용 변경은 명백한 저작권법 위법이며, 민형사 소송에 있어 철저한 불관용 원칙을 적용합니다 -->
+      <div class="footer-right">
+        <p>제작자 : 아로스</p>
+        <p>홈페이지 : <a href="https://aros100.com" target="_blank">바로가기</a></p>
+        <p class="footer-copyright">Copyrights © 2020 All Rights Reserved by (주)아백</p>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>

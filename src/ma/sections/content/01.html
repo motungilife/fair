@@ -1,0 +1,12 @@
+<div id="content01" x-data="handleContent01()">
+  <h2 class="section-title" id="aros1">사전 등록 임박, 지금 바로 신청!</h2>
+  <div class="support-grid">
+    <template x-for="row in preUrls" :key="row.eventName">
+      <a class="support-card" :class="getClsColor('blue')" :href="row.blogUrl">
+        <div class="support-title" x-text="row.eventName"></div>
+        <div class="support-subtitle" x-text="row.admissionFee"></div>
+        <div class="support-icon" x-text="getTimeEmoji()"></div>
+      </a>
+    </template>
+  </div>
+</div>

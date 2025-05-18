@@ -1,3 +1,26 @@
+function loadScript(src) {
+  return new Promise((resolve, reject) => {
+    const script = document.createElement("script");
+    script.src = src;
+    script.onload = () => {
+      resolve(script);
+    };
+    script.onerror = (err) => {
+      console.error(src + " 스크립트 로드 실패");
+      reject(new Error(src + " 스크립트 로드 실패"));
+    };
+    document.head.appendChild(script);
+  });
+}
+
+async function replaceWith(targetId, url) {
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(url + " 불러오기 실패");
+  const html = await res.text();
+  const el = document.getElementById(targetId);
+  if (el) el.outerHTML = html;
+}
+
 const emoji = {
   time: "⏰-🕰️-⏳-⌛-🕐-🕝-🕒-🕞-🕓-🕟-🕔-🕠-🕕-🕡-🕖-🕢-🕗-🕣-🕘-🕤-🕙-🕥-🕚-🕦-🕛-📆-📅-📆-🗓️",
   month: {
