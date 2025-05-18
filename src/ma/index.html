@@ -680,7 +680,7 @@ Name: 아로스 홈페이지 스킨 목록
             <div class="tab-wrapper">
               <div class="container">
                 <nav class="tab-container">
-                  <ul class="tabs">
+                  <ul class="tabs" id="tabs">
                     <li class="tab-item">
                       <a class="tab-link active" data-tab="aros1" href="https://ma01.motungilife.com/#aros1">마감 임박</a>
                     </li>
@@ -698,29 +698,6 @@ Name: 아로스 홈페이지 스킨 목록
               </div>
             </div>
             <script>
-              document.addEventListener('DOMContentLoaded', function () {
-                const tabs = document.querySelectorAll('.tab-link');
-                const hash = window.location.hash;
-                let activeTabFound = false;
-
-                tabs.forEach(tab => {
-                  if (hash) {
-                    if (tab.getAttribute('href') === hash) {
-                      tabs.forEach(t => t.classList.remove('active'));
-                      tab.classList.add('active');
-                      activeTabFound = true;
-                    }
-                  }
-                });
-
-                if (!activeTabFound) {
-                  const defaultActiveTab = document.querySelector('.tab-link.active');
-                  if (defaultActiveTab) {
-                    defaultActiveTab.classList.add('active');
-                  }
-                }
-              });
-
               function scrollToElementWithOffset(elementId) {
                 const targetElement = document.getElementById(elementId);
                 if (targetElement) {
