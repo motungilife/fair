@@ -16,7 +16,7 @@ if (subDns === "ma01") {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  document.querySelector("#header .logo-text").innerText = mainTitle;
+  document.querySelector(".header .logo-text").innerText = mainTitle;
   document.title = `${mainTitle} - ${subTitle}`;
 
   const subNo = Number(subDns.replace(/^pa0?/, "")) - 1;
@@ -45,7 +45,10 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelector("#com-no").innerText = "N/A";
 });
 
-const urlHash = location.hash || "#aros1";
+let urlHash = location.hash || "#aros1";
+if (menuType === "month") urlHash = "#aros2";
+else if (menuType === "region") urlHash = "#aros3";
+else if (menuType === "venue") urlHash = "#aros4";
 const tabs = [
   {
     id: "aros1",

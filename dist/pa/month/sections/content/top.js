@@ -1,0 +1,1 @@
+const handleContentTop=()=>({mInfo:{},async init(){const n=await fetch("https://cdn.jsdelivr.net/gh/motungilife/fair@main/dist/json/month_urls.json"),t=Number(subDns.replace(/^pa0?/,""));this.mInfo=(await n.json()).find((n=>n.month===t))||{month:0,msg:"none"}}});replaceWith("content-top","https://cdn.jsdelivr.net/gh/motungilife/fair@main/dist/pa/month/sections/content/top.html");
