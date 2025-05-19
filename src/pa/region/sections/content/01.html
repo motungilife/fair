@@ -1,0 +1,22 @@
+<div id="content01" x-data="handleContent01()">
+  <template x-for="fair in fairs">
+    <div class="aros-gray-card" style="margin: 20px 0px;">
+      <div style="align-items: center; display: flex; justify-content: space-between;">
+        <div style="flex: 3 1 0%;">
+          <h3 x-text="fair.eventName">대전건축박람회</h3>
+          <p class="apply-date-text">행사 기간 : <span x-text="fair.fromToDt">2025.05.22 ~ 05.25</span></p>
+          <p class="apply-text">사전 등록 마감일 : <span x-text="fair.preregDt">2025.05.21</span></p>
+        </div>
+        <div style="flex: 1 1 0%; text-align: right;">
+          <div style="font-size: 40px;">📅</div>
+        </div>
+      </div>
+      <a :href="fair.blogUrl">
+        <button class="bottom-button">
+          <span><span x-text="fair.eventName">대전건축박람회</span> 알아보기</span>
+          <span>→</span>
+        </button>
+      </a>
+    </div>
+  </template>
+</div>

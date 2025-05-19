@@ -1,0 +1,1 @@
+const handleContentTop=()=>({rInfo:{},async init(){const n=await fetch("https://cdn.jsdelivr.net/gh/motungilife/fair@main/dist/json/region_urls.json"),t=getRetion(subDns);this.rInfo=(await n.json()).find((n=>n.region===t))||{region:"대한민국",msg:"전국"}}});replaceWith("content-top","https://cdn.jsdelivr.net/gh/motungilife/fair@main/dist/pa/region/sections/content/top.html");

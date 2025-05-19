@@ -1,30 +1,37 @@
 [
   {
     "region": "서울",
-    "regionUrl": "https://pa01.motungilife.com/2025/05/region.html"
+    "regionUrl": "https://pa01.motungilife.com/2025/05/region.html",
+    "msg": "대한민국의 심장부 도시"
   },
   {
     "region": "경기",
-    "regionUrl": "https://pa02.motungilife.com/2025/05/region.html"
+    "regionUrl": "https://pa02.motungilife.com/2025/05/region.html",
+    "msg": "수도권 품은 넓은 지역"
   },
   {
     "region": "대전",
-    "regionUrl": "https://pa03.motungilife.com/2025/05/region.html"
+    "regionUrl": "https://pa03.motungilife.com/2025/05/region.html",
+    "msg": "과학과 행정의 중심지"
   },
   {
     "region": "청주",
-    "regionUrl": "https://pa04.motungilife.com/2025/05/region.html"
+    "regionUrl": "https://pa04.motungilife.com/2025/05/region.html",
+    "msg": "직지와 전통 숨 쉬는 곳"
   },
   {
     "region": "대구",
-    "regionUrl": "https://pa05.motungilife.com/2025/05/region.html"
+    "regionUrl": "https://pa05.motungilife.com/2025/05/region.html",
+    "msg": "뜨거운 열정의 문화 도시"
   },
   {
     "region": "광주",
-    "regionUrl": "https://pa06.motungilife.com/2025/05/region.html"
+    "regionUrl": "https://pa06.motungilife.com/2025/05/region.html",
+    "msg": "예술과 민주 정신의 도시"
   },
   {
     "region": "부산",
-    "regionUrl": "https://pa07.motungilife.com/2025/05/region.html"
+    "regionUrl": "https://pa07.motungilife.com/2025/05/region.html",
+    "msg": "바다 품은 국제 항구 도시"
   }
 ]
