@@ -1,0 +1,1 @@
+const handleContentTop=()=>({vInfo:{},async init(){const n=await fetch("https://cdn.jsdelivr.net/gh/motungilife/fair@main/dist/json/venue_urls.json"),t=getVenue(subDns);this.vInfo=(await n.json()).find((n=>n.venue===t))||{venue:"-",msg:"-"}}});replaceWith("content-top","https://cdn.jsdelivr.net/gh/motungilife/fair@main/dist/pa/venue/sections/content/top.html");
