@@ -6,8 +6,8 @@ let ss = 0;
 
 const alpineBlinkingFairAd = () => ({
   fair: {},
-  msg: "사전 등록 알아보기",
   dDay: "무료 관람 기회 놓치지 마세요!",
+  msg: "사전 등록 알아보기",
   intervalId: null,
   async init() {
     const n = new Date();
@@ -30,7 +30,7 @@ const alpineBlinkingFairAd = () => ({
     s = Math.floor((diff % (1000 * 60)) / 1000);
     ss = Math.floor((diff % 1000) / 10);
     if (d < 2) {
-      this.msg = "사전 등록 마감 임박!";
+      this.msg = "마감 임박 사전등록 클릭👈";
       this.intervalId = setInterval(() => {
         ss--;
         if (ss < 0) {
