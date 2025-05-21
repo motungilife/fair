@@ -112,8 +112,8 @@ async function loadBlinkingFairAd() {
     const abw = ab.offsetWidth;
     const abh = ab.offsetHeight;
 
-    ab.style.top = h - abh - 15;
-    ab.style.left = w - abw - 10;
+    ab.style.top = h - abh - 15 + "px";
+    ab.style.left = w - abw - 10 + "px";
   }
 }
 
