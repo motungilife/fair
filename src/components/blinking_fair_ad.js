@@ -103,6 +103,18 @@ async function loadBlinkingFairAd() {
   await loadScript(
     "https://cdn.jsdelivr.net/npm/alpinejs@3.14.8/dist/cdn.min.js"
   );
+
+  const w = window.innerWidth;
+
+  if (w <= 800) {
+    const h = window.innerHeight;
+    const ab = document.getElementsByClassName("aros-blink")[0];
+    const abw = ab.offsetWidth;
+    const abh = ab.offsetHeight;
+
+    ab.style.top = h - abh - 15;
+    ab.style.left = w - abw - 10;
+  }
 }
 
 loadBlinkingFairAd();
