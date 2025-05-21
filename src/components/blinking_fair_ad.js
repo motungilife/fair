@@ -6,8 +6,8 @@ let ss = 0;
 
 const alpineBlinkingFairAd = () => ({
   fair: {},
-  dDay: "무료 관람 기회 놓치지 마세요!",
-  msg: "사전 등록 알아보기",
+  dDay: "사전 등록 알아보기",
+  msg: "무료 관람 기회 놓치지 마세요!",
   intervalId: null,
   async init() {
     const n = new Date();
@@ -18,9 +18,12 @@ const alpineBlinkingFairAd = () => ({
     );
 
     const fairs = await (await fetch("/src/json/blog_urls.json")).json();
-    const fair = fairs.find((fair) => fair.preregEndDate > now) || {};
+    const fair = fairs.find((fair) => fair.preregEndDate >= now) || {};
     const preregEndDate = new Date(
-      ("" + fair.preregEndDate).replace(/(\d{4})(\d{2})(\d{2})/, "$1-$2-$3")
+      ("" + fair.preregEndDate).replace(
+        /(\d{4})(\d{2})(\d{2})/,
+        "$1-$2-$3 23:59:59"
+      )
     );
     const diff = preregEndDate - n;
 
@@ -30,7 +33,7 @@ const alpineBlinkingFairAd = () => ({
     s = Math.floor((diff % (1000 * 60)) / 1000);
     ss = Math.floor((diff % 1000) / 10);
     if (d < 2) {
-      this.msg = "마감 임박 사전등록 클릭👈";
+      this.msg = "사전 등록 마감 임박 클릭👈";
       this.intervalId = setInterval(() => {
         ss--;
         if (ss < 0) {
