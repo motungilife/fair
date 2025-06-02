@@ -1,7 +1,7 @@
 const subDns = location.hostname.split(".")[0];
 const menuType = location.pathname.split(".html")[0].split("/").pop();
 
-const mainTitle = new Date().getFullYear() + "년 건축박람회";
+const mainTitle = new Date().getFullYear() + "년 박람회";
 let subTitle = "";
 if (subDns === "ma01") {
   subTitle = "마감 임박";

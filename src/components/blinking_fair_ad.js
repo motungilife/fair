@@ -32,7 +32,7 @@ const alpineBlinkingFairAd = () => ({
     m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
     s = Math.floor((diff % (1000 * 60)) / 1000);
     ss = Math.floor((diff % 1000) / 10);
-    if (d < 2) {
+    if (d < 14) {
       this.msg = "사전 등록 마감 임박 클릭👈";
       this.intervalId = setInterval(() => {
         ss--;

@@ -22,6 +22,17 @@
     "eventName": "부산건축박람회"
   },
   {
+    "scheduleStartDate": 20250605,
+    "scheduleEndDate": 20250608,
+    "preregStartDate": 0,
+    "preregEndDate": 20250604,
+    "admissionFee": 10000,
+    "eventRegion": "서울",
+    "eventVenue": "COEX",
+    "blogUrl": "https://fair.motungilife.com/2025/05/seoul-travel-fair-june-free-registration.html",
+    "eventName": "제40회 서울국제관광전"
+  },
+  {
     "scheduleStartDate": 20250612,
     "scheduleEndDate": 20250615,
     "preregStartDate": 0,
@@ -55,6 +66,17 @@
     "eventName": "제9회 MBC건축박람회"
   },
   {
+    "scheduleStartDate": 20250822,
+    "scheduleEndDate": 20250824,
+    "preregStartDate": 0,
+    "preregEndDate": 20250821,
+    "admissionFee": 7000,
+    "eventRegion": "인천",
+    "eventVenue": "송도컨벤시아",
+    "blogUrl": "https://fair.motungilife.com/2025/05/incheon-fishing-expo-august-free-registration.html",
+    "eventName": "인천 낚시박람회"
+  },
+  {
     "scheduleStartDate": 20250911,
     "scheduleEndDate": 20250914,
     "preregStartDate": 0,
@@ -78,7 +100,7 @@
   },
   {
     "scheduleStartDate": 20251106,
-    "scheduleEndDate": 20251105,
+    "scheduleEndDate": 20251109,
     "preregStartDate": 0,
     "preregEndDate": 20251105,
     "admissionFee": 10000,
