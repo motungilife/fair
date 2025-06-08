@@ -44,6 +44,17 @@
     "eventName": "충청경향하우징페어"
   },
   {
+    "scheduleStartDate": 20250618,
+    "scheduleEndDate": 20250622,
+    "preregStartDate": 0,
+    "preregEndDate": 20250617,
+    "admissionFee": 20000,
+    "eventRegion": "서울",
+    "eventVenue": "COEX",
+    "blogUrl": "https://fair.motungilife.com/2025/06/seoul-metaverse-expo-june-discount-registration.html",
+    "eventName": "MVEX 2025 메타버스 엑스포"
+  },
+  {
     "scheduleStartDate": 20250730,
     "scheduleEndDate": 20250802,
     "preregStartDate": 0,
