@@ -88,6 +88,17 @@
     "eventName": "인천 낚시박람회"
   },
   {
+    "scheduleStartDate": 20250828,
+    "scheduleEndDate": 20250831,
+    "preregStartDate": 0,
+    "preregEndDate": 20250827,
+    "admissionFee": 10000,
+    "eventRegion": "경기",
+    "eventVenue": "KINTEX",
+    "blogUrl": "https://fair.motungilife.com/2025/06/gyeonggi-furniture-interior-fair-free-registration.html",
+    "eventName": "한국국제가구 및 인테리어산업대전(KOFURN)"
+  },
+  {
     "scheduleStartDate": 20250911,
     "scheduleEndDate": 20250914,
     "preregStartDate": 0,
