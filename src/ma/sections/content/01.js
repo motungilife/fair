@@ -8,8 +8,7 @@ const handleContent01 = () => ({
         const preregEndDate = dayjs("" + item.preregEndDate);
         return (
           (now.isSame(preregEndDate, "day") || now.isBefore(preregEndDate)) &&
-          now.startOf("month").isBefore(preregEndDate) &&
-          now.endOf("month").add(15, "day").isAfter(preregEndDate)
+          now.add(14, "day").isAfter(preregEndDate)
         );
       })
       .map((item) => {

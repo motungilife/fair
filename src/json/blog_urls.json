@@ -7,8 +7,8 @@
     "admissionFee": 10000,
     "eventRegion": "대전",
     "eventVenue": "대전컨벤션센터",
-    "blogUrl": "https://fair.motungilife.com/2025/05/daejeon-architecture-expo-2025-may-free-registration.html",
-    "eventName": "대전건축박람회"
+    "eventName": "대전건축박람회",
+    "blogUrl": "https://fair.motungilife.com/2025/05/daejeon-architecture-expo-2025-may-free-registration.html"
   },
   {
     "scheduleStartDate": 20250605,
@@ -18,8 +18,8 @@
     "admissionFee": 10000,
     "eventRegion": "부산",
     "eventVenue": "BEXCO",
-    "blogUrl": "https://fair.motungilife.com/2025/05/busan-architecture-expo-2025-june-free-registration.html",
-    "eventName": "부산건축박람회"
+    "eventName": "부산건축박람회",
+    "blogUrl": "https://fair.motungilife.com/2025/05/busan-architecture-expo-2025-june-free-registration.html"
   },
   {
     "scheduleStartDate": 20250605,
@@ -29,8 +29,8 @@
     "admissionFee": 10000,
     "eventRegion": "서울",
     "eventVenue": "COEX",
-    "blogUrl": "https://fair.motungilife.com/2025/05/seoul-travel-fair-june-free-registration.html",
-    "eventName": "제40회 서울국제관광전"
+    "eventName": "제40회 서울국제관광전",
+    "blogUrl": "https://fair.motungilife.com/2025/05/seoul-travel-fair-june-free-registration.html"
   },
   {
     "scheduleStartDate": 20250612,
@@ -40,8 +40,8 @@
     "admissionFee": 10000,
     "eventRegion": "청주",
     "eventVenue": "OSCO",
-    "blogUrl": "https://fair.motungilife.com/2025/05/chungcheong-architecture-expo-june-2025-free-registration.html",
-    "eventName": "충청경향하우징페어"
+    "eventName": "충청경향하우징페어",
+    "blogUrl": "https://fair.motungilife.com/2025/05/chungcheong-architecture-expo-june-2025-free-registration.html"
   },
   {
     "scheduleStartDate": 20250618,
@@ -51,8 +51,19 @@
     "admissionFee": 20000,
     "eventRegion": "서울",
     "eventVenue": "COEX",
-    "blogUrl": "https://fair.motungilife.com/2025/06/seoul-metaverse-expo-june-discount-registration.html",
-    "eventName": "MVEX 2025 메타버스 엑스포"
+    "eventName": "MVEX 2025 메타버스 엑스포",
+    "blogUrl": "https://fair.motungilife.com/2025/06/seoul-metaverse-expo-june-discount-registration.html"
+  },
+  {
+    "scheduleStartDate": 20250620,
+    "scheduleEndDate": 20250622,
+    "preregStartDate": 0,
+    "preregEndDate": 20250619,
+    "admissionFee": 7000,
+    "eventRegion": "부산",
+    "eventVenue": "BEXCO1",
+    "eventName": "K-일러스트레이션페어부산",
+    "blogUrl": "https://fair.motungilife.com/2025/06/2025-k-illustration-fair-busan-pre-registration-discount.html"
   },
   {
     "scheduleStartDate": 20250730,
@@ -62,8 +73,8 @@
     "admissionFee": 20000,
     "eventRegion": "서울",
     "eventVenue": "COEX",
-    "blogUrl": "https://fair.motungilife.com/2025/05/seoul-architecture-expo-2025-july-free-registration.html",
-    "eventName": "코리아빌드위크"
+    "eventName": "코리아빌드위크",
+    "blogUrl": "https://fair.motungilife.com/2025/05/seoul-architecture-expo-2025-july-free-registration.html"
   },
   {
     "scheduleStartDate": 20250821,
@@ -73,8 +84,8 @@
     "admissionFee": 10000,
     "eventRegion": "경기",
     "eventVenue": "KINTEX",
-    "blogUrl": "https://fair.motungilife.com/2025/05/ilsan-architecture-expo-2025-august-free-registration.html",
-    "eventName": "제9회 MBC건축박람회"
+    "eventName": "제9회 MBC건축박람회",
+    "blogUrl": "https://fair.motungilife.com/2025/05/ilsan-architecture-expo-2025-august-free-registration.html"
   },
   {
     "scheduleStartDate": 20250822,
@@ -84,8 +95,8 @@
     "admissionFee": 7000,
     "eventRegion": "인천",
     "eventVenue": "송도컨벤시아",
-    "blogUrl": "https://fair.motungilife.com/2025/05/incheon-fishing-expo-august-free-registration.html",
-    "eventName": "인천 낚시박람회"
+    "eventName": "인천 낚시박람회",
+    "blogUrl": "https://fair.motungilife.com/2025/05/incheon-fishing-expo-august-free-registration.html"
   },
   {
     "scheduleStartDate": 20250828,
@@ -95,8 +106,8 @@
     "admissionFee": 10000,
     "eventRegion": "경기",
     "eventVenue": "KINTEX",
-    "blogUrl": "https://fair.motungilife.com/2025/06/gyeonggi-furniture-interior-fair-free-registration.html",
-    "eventName": "한국국제가구 및 인테리어산업대전(KOFURN)"
+    "eventName": "한국국제가구 및 인테리어산업대전(KOFURN)",
+    "blogUrl": "https://fair.motungilife.com/2025/06/gyeonggi-furniture-interior-fair-free-registration.html"
   },
   {
     "scheduleStartDate": 20250911,
@@ -106,8 +117,8 @@
     "admissionFee": 10000,
     "eventRegion": "부산",
     "eventVenue": "BEXCO",
-    "blogUrl": "https://fair.motungilife.com/2025/05/busan-architecture-expo-2025-september-free-registration.html",
-    "eventName": "부산코리아빌드"
+    "eventName": "부산코리아빌드",
+    "blogUrl": "https://fair.motungilife.com/2025/05/busan-architecture-expo-2025-september-free-registration.html"
   },
   {
     "scheduleStartDate": 20250918,
@@ -117,8 +128,8 @@
     "admissionFee": 10000,
     "eventRegion": "대구",
     "eventVenue": "EXCO",
-    "blogUrl": "https://fair.motungilife.com/2025/05/daegu-architecture-expo-2025-september-free-registration.html",
-    "eventName": "대구경향하우징페어"
+    "eventName": "대구경향하우징페어",
+    "blogUrl": "https://fair.motungilife.com/2025/05/daegu-architecture-expo-2025-september-free-registration.html"
   },
   {
     "scheduleStartDate": 20251106,
@@ -128,8 +139,8 @@
     "admissionFee": 10000,
     "eventRegion": "서울",
     "eventVenue": "SETEC",
-    "blogUrl": "https://fair.motungilife.com/2025/05/seoul-architecture-expo-2025-november-free-registration.html",
-    "eventName": "서울경향하우징페어"
+    "eventName": "서울경향하우징페어",
+    "blogUrl": "https://fair.motungilife.com/2025/05/seoul-architecture-expo-2025-november-free-registration.html"
   },
   {
     "scheduleStartDate": 20251127,
@@ -139,8 +150,8 @@
     "admissionFee": 10000,
     "eventRegion": "광주",
     "eventVenue": "KDJ센터",
-    "blogUrl": "https://fair.motungilife.com/2025/05/gwangju-architecture-expo-2025-november-free-registration.html",
-    "eventName": "광주경향하우징페어"
+    "eventName": "광주경향하우징페어",
+    "blogUrl": "https://fair.motungilife.com/2025/05/gwangju-architecture-expo-2025-november-free-registration.html"
   },
   {
     "scheduleStartDate": 20251204,
@@ -150,7 +161,7 @@
     "admissionFee": 10000,
     "eventRegion": "서울",
     "eventVenue": "COEX",
-    "blogUrl": "https://fair.motungilife.com/2025/05/magok-architecture-expo-2025-december-free-registration.html",
-    "eventName": "동아건축∙인테리어"
+    "eventName": "동아건축∙인테리어",
+    "blogUrl": "https://fair.motungilife.com/2025/05/magok-architecture-expo-2025-december-free-registration.html"
   }
 ]
