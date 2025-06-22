@@ -1,69 +1,36 @@
 [
   {
-    "scheduleStartDate": 20250522,
-    "scheduleEndDate": 20250525,
+    "scheduleStartDate": 20250627,
+    "scheduleEndDate": 20250629,
     "preregStartDate": 0,
-    "preregEndDate": 20250521,
-    "admissionFee": 10000,
-    "eventRegion": "대전",
-    "eventVenue": "대전컨벤션센터",
-    "eventName": "대전건축박람회",
-    "blogUrl": "https://fair.motungilife.com/2025/05/daejeon-architecture-expo-2025-may-free-registration.html"
+    "preregEndDate": 20250626,
+    "admissionFee": 5000,
+    "eventRegion": "울산",
+    "eventVenue": "UECO",
+    "eventName": "제16회 더캠핑쇼 in 울산",
+    "blogUrl": "https://fair.motungilife.com/2025/06/ulsan-thecampingshow-2025-june-schedule-summary.html"
   },
   {
-    "scheduleStartDate": 20250605,
-    "scheduleEndDate": 20250608,
+    "scheduleStartDate": 20250704,
+    "scheduleEndDate": 20250706,
     "preregStartDate": 0,
-    "preregEndDate": 20250604,
+    "preregEndDate": 20250629,
     "admissionFee": 10000,
-    "eventRegion": "부산",
-    "eventVenue": "BEXCO",
-    "eventName": "부산건축박람회",
-    "blogUrl": "https://fair.motungilife.com/2025/05/busan-architecture-expo-2025-june-free-registration.html"
+    "eventRegion": "대구",
+    "eventVenue": "EXCO",
+    "eventName": "2025 캠페어 대구",
+    "blogUrl": "https://fair.motungilife.com/2025/06/daegu-camfair-2025-schedule.html"
   },
   {
-    "scheduleStartDate": 20250605,
-    "scheduleEndDate": 20250608,
+    "scheduleStartDate": 20250711,
+    "scheduleEndDate": 20250713,
     "preregStartDate": 0,
-    "preregEndDate": 20250604,
-    "admissionFee": 10000,
-    "eventRegion": "서울",
-    "eventVenue": "COEX",
-    "eventName": "제40회 서울국제관광전",
-    "blogUrl": "https://fair.motungilife.com/2025/05/seoul-travel-fair-june-free-registration.html"
-  },
-  {
-    "scheduleStartDate": 20250612,
-    "scheduleEndDate": 20250615,
-    "preregStartDate": 0,
-    "preregEndDate": 20250611,
-    "admissionFee": 10000,
+    "preregEndDate": 20250710,
+    "admissionFee": 5000,
     "eventRegion": "청주",
     "eventVenue": "OSCO",
-    "eventName": "충청경향하우징페어",
-    "blogUrl": "https://fair.motungilife.com/2025/05/chungcheong-architecture-expo-june-2025-free-registration.html"
-  },
-  {
-    "scheduleStartDate": 20250618,
-    "scheduleEndDate": 20250622,
-    "preregStartDate": 0,
-    "preregEndDate": 20250617,
-    "admissionFee": 20000,
-    "eventRegion": "서울",
-    "eventVenue": "COEX",
-    "eventName": "MVEX 2025 메타버스 엑스포",
-    "blogUrl": "https://fair.motungilife.com/2025/06/seoul-metaverse-expo-june-discount-registration.html"
-  },
-  {
-    "scheduleStartDate": 20250620,
-    "scheduleEndDate": 20250622,
-    "preregStartDate": 0,
-    "preregEndDate": 20250619,
-    "admissionFee": 7000,
-    "eventRegion": "부산",
-    "eventVenue": "BEXCO1",
-    "eventName": "K-일러스트레이션페어부산",
-    "blogUrl": "https://fair.motungilife.com/2025/06/2025-k-illustration-fair-busan-pre-registration-discount.html"
+    "eventName": "제17회 더캠핑쇼 in 청주",
+    "blogUrl": "https://fair.motungilife.com/2025/06/2025-cheongju-camping-festival-july-thecampingshow-schedule.html"
   },
   {
     "scheduleStartDate": 20250730,
@@ -75,6 +42,28 @@
     "eventVenue": "COEX",
     "eventName": "코리아빌드위크",
     "blogUrl": "https://fair.motungilife.com/2025/05/seoul-architecture-expo-2025-july-free-registration.html"
+  },
+  {
+    "scheduleStartDate": 20250815,
+    "scheduleEndDate": 20250817,
+    "preregStartDate": 0,
+    "preregEndDate": 20250810,
+    "admissionFee": 10000,
+    "eventRegion": "부산",
+    "eventVenue": "BEXCO",
+    "eventName": "2025 캠페어 부산",
+    "blogUrl": "https://fair.motungilife.com/2025/06/2025-busan-camfair-schedule-operating-hours.html"
+  },
+  {
+    "scheduleStartDate": 20250821,
+    "scheduleEndDate": 20250824,
+    "preregStartDate": 0,
+    "preregEndDate": 20250819,
+    "admissionFee": 10000,
+    "eventRegion": "서울",
+    "eventVenue": "COEX",
+    "eventName": "K-일러스트레이션페어마곡",
+    "blogUrl": "https://fair.motungilife.com/2025/06/2025-k-illustrationfair-magok-pre-registration-discount.html"
   },
   {
     "scheduleStartDate": 20250821,
