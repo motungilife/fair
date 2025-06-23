@@ -2,7 +2,9 @@ const handleContent04 = () => ({
   venueUrls: [],
   async init() {
     const blogUrls = Alpine.store("blogUrls");
-    const resVenues = await fetch("/src/json/venue_urls.json");
+    const resVenues = await fetch(
+      "/src/json/venue_urls.json?s=" + new Date().getTime()
+    );
     this.venueUrls = (await resVenues.json())
       .map((item) => {
         return {

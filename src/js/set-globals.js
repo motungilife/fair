@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const subNo = Number(subDns.replace(/^pa0?/, "")) - 1;
   if (menuType === "region") {
-    fetch("/src/json/region_urls.json")
+    fetch("/src/json/region_urls.json?s=" + new Date().getTime())
       .then((res) => res.json())
       .then((list) => {
         document.title = `${mainTitle} - ${list[subNo].name}`;

@@ -14,7 +14,7 @@ function loadScript(src) {
 }
 
 async function replaceWith(targetId, url) {
-  const res = await fetch(url);
+  const res = await fetch(url + "?s=" + new Date().getTime());
   if (!res.ok) throw new Error(url + " 불러오기 실패");
   const html = await res.text();
   const el = document.getElementById(targetId);

@@ -10,7 +10,9 @@ const getRetion = (region) => {
 };
 
 document.addEventListener("alpine:init", async () => {
-  const blogUrls = await (await fetch("/src/json/blog_urls.json")).json();
+  const blogUrls = await (
+    await fetch("/src/json/blog_urls?s=" + new Date().getTime())
+  ).json();
   Alpine.store("blogUrls", blogUrls);
 
   await loadScript("/src/pa/region/sections/content/top.js");

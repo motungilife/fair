@@ -17,7 +17,9 @@ const alpineBlinkingFairAd = () => ({
         String(n.getDate()).padStart(2, "0")
     );
 
-    const fairs = await (await fetch("/src/json/blog_urls.json")).json();
+    const fairs = await (
+      await fetch("/src/json/blog_urls.json?s=" + new Date().getTime())
+    ).json();
     const fair = fairs.find((fair) => fair.preregEndDate >= now) || {};
     const preregEndDate = new Date(
       ("" + fair.preregEndDate).replace(

@@ -1,7 +1,9 @@
 const handleContentTop = () => ({
   rInfo: {},
   async init() {
-    const resRegions = await fetch("/src/json/region_urls.json");
+    const resRegions = await fetch(
+      "/src/json/region_urls.json?s=" + new Date().getTime()
+    );
     const rg = getRetion(subDns);
     this.rInfo = (await resRegions.json()).find((r) => r.region === rg) || {
       region: "대한민국",

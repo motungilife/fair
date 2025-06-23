@@ -10,7 +10,9 @@ const getVenue = (venue) => {
 };
 
 document.addEventListener("alpine:init", async () => {
-  const blogUrls = await (await fetch("/src/json/blog_urls.json")).json();
+  const blogUrls = await (
+    await fetch("/src/json/blog_urls.json?s=" + new Date().getTime())
+  ).json();
   Alpine.store("blogUrls", blogUrls);
 
   await loadScript("/src/pa/venue/sections/content/top.js");
